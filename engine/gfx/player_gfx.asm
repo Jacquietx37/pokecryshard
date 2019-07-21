@@ -96,8 +96,8 @@ GetPlayerIcon:
 	jr z, .done
 
 ; Female
-	ld de, KrisSpriteGFX
-	ld b, BANK(KrisSpriteGFX)
+	ld de, GreenSpriteGFX
+	ld b, BANK(GreenSpriteGFX)
 
 .done
 	ret
@@ -210,7 +210,7 @@ ChrisPic:
 INCBIN "gfx/player/chris.2bpp"
 
 KrisPic:
-INCBIN "gfx/player/kris.2bpp"
+INCBIN "gfx/player/green.2bpp"
 
 GetKrisBackpic:
 ; Kris's backpic is uncompressed.
@@ -221,4 +221,4 @@ GetKrisBackpic:
 	ret
 
 KrisBackpic:
-INCBIN "gfx/player/kris_back.2bpp"
+INCBIN "gfx/player/green_back.2bpp"

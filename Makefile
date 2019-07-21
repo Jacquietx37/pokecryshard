@@ -209,6 +209,8 @@ gfx/player/chris.2bpp: rgbgfx += -h
 gfx/player/chris_back.2bpp: rgbgfx += -h
 gfx/player/kris.2bpp: rgbgfx += -h
 gfx/player/kris_back.2bpp: rgbgfx += -h
+gfx/player/green.2bpp: rgbgfx += -h
+gfx/player/green_back.2bpp: rgbgfx += -h
 
 gfx/trainer_card/chris_card.2bpp: rgbgfx += -h
 gfx/trainer_card/kris_card.2bpp: rgbgfx += -h
